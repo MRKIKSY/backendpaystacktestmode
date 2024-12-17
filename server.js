@@ -2,7 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const cors = require("cors");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
+
 const jwt = require("jsonwebtoken");
 const axios = require("axios");
 require("dotenv").config(); // Load .env file
