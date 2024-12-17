@@ -11,7 +11,7 @@ require("dotenv").config(); // Load .env file
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:5000'],
+    origin: ['https://frontendpaystacktestmode.onrender.com', 'https://backendpaystacktestmode.onrender.com'],
     credentials: true
 }));
 
